@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
-  resources :cards_players
   resources :cards
   resources :players
-  resources :games
+  resources :games, only: [:index, :create, :update]
 
   get 'games/history', to: 'games#history'
 
