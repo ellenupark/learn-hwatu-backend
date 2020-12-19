@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  matched: false
+  card: one
+  player: one
+
+two:
+  matched: false
+  card: two
+  player: two
