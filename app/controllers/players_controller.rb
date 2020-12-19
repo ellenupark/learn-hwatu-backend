@@ -9,15 +9,15 @@ class PlayersController < ApplicationController
     #     render json: PlayerSerializer.new(player)
     # end
 
-    # def create
-    #     player = Player.new(player_params)
+    def create
+        player = Player.new(player_params)
 
-    #     if player.save
-    #         render json: PlayerSerializer.new(player)
-    #     else
-    #         render json: {errors: player.errors.full_messages.to_sentence}
-    #     end
-    # end
+        if player.save
+            render json: PlayerSerializer.new(player)
+        else
+            render json: {errors: player.errors.full_messages.to_sentence}
+        end
+    end
 
     private
     # Use callbacks to share common setup or constraints between actions.
@@ -27,6 +27,6 @@ class PlayersController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def player_params
-        params.require(:player).permit(:role)
+        params.require(:player).permit(:role, :game_id)
     end
 end
