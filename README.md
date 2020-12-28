@@ -1,5 +1,8 @@
 # README
 
+## Frontend
+[learn-hwatu-frontend](https://github.com/ellenupark/learn-hwatu-frontend)
+
 ## Project Demo
 
 [learn-hwatu.herokuapp](https://learn-hwatu.herokuapp.com/) | [Summary](https://www.youtube.com/watch?v=deORxiINv8I)
