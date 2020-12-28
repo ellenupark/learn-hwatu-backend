@@ -16,12 +16,7 @@ The backend was built with Ruby on Rails (RESTful API).
 
 ```shell
 git clone git@github.com:ellenupark/learn-hwatu-frontend.git
-cd project
-```
-
-```shell
 git clone git@github.com:ellenupark/learn-hwatu-backend.git
-cd project
 ```
 
 ### Initialize the Database
