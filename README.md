@@ -2,8 +2,7 @@
 
 ## Project Demo
 
-[learn-hwatu.herokuapp](https://learn-hwatu.herokuapp.com/)
-[Summary](https://www.youtube.com/watch?v=deORxiINv8I)
+[learn-hwatu.herokuapp](https://learn-hwatu.herokuapp.com/) | [Summary](https://www.youtube.com/watch?v=deORxiINv8I)
 
 ## Description
 
@@ -54,5 +53,5 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/ellenu
 The application is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Further Information
-[Project Demo](https://learn-hwatu.herokuapp.com) | [Personal Website](https://ellenupark.github.io) | [LinkedIn](http://www.linkedin.com/in/ellenupark) | [Blog](https://ellen-park.medium.com/)
+[Personal Website](https://ellenupark.github.io) | [LinkedIn](http://www.linkedin.com/in/ellenupark) | [Blog](https://ellen-park.medium.com/)
 
