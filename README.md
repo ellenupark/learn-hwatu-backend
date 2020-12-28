@@ -8,19 +8,26 @@
 ## Description
 
 Play against the computer and learn how to play the Korean card game, Hwatu.
-Single page application built with a vanilla Javascript, HTML and CSS frontend.
-Backend built with Ruby on Rails with RESTful API.
+Learn Hwatu is a single page application built with a vanilla Javascript, HTML and CSS frontend.
+The backend was built with Ruby on Rails (RESTful API).
 
 ## Install
 
-### Clone the repository
+### Clone Frontend and Backend Repositories
 
 ```shell
-git clone git@github.com:juliendargelos/project.git
+git clone git@github.com:ellenupark/learn-hwatu-frontend.git
 cd project
 ```
 
-### Initialize the database
+```shell
+git clone git@github.com:ellenupark/learn-hwatu-backend.git
+cd project
+```
+
+### Initialize the Database
+
+Navigate to the Backend root directory.
 
 ```shell
 rails db:create 
@@ -28,11 +35,16 @@ rails db:migrate
 rails db:seed
 ```
 
-### Serve
+### Begin Server
+
+While in the Backend root directory,
 
 ```shell
 rails s
 ```
+
+### Open Application
+Navigate to the Frontend root directory. Open `index.html`.
 
 ## Contributing
 Bug reports and pull requests are welcome on GitHub at https://github.com/ellenupark/learn-hwatu-frontend or https://github.com/ellenupark/learn-hwatu-backend. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
